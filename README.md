@@ -9,7 +9,7 @@ This repository is for the paper
 
 We propose a problem of dense stacking of transparent object, where transparent objects cause light to refract and reflect, making it exceptionally challenging for vision-based methods to generate effective grasp actions in the cluttered scenario. To address this issue, we propose a universal framework called TCG for collision-free grasp strategy gen-eration in environments with dense occlusion of transparent objects. In this framework, we utilize an end-to-end depth completion network to restore missing depth information for transparent objects, then employ reliable visual information for pixel-level action mapping. Specifically, we enhance the robot’s recognition capability in dense environments by incorporating the Spatial-Channel mixed Attention Mechanism into the visual feature extraction module. We created a dataset by simulating scenarios in biopharmaceutical manufacturing, including tubes, petri dishes and medicine bottles of various sizes and shapes. We conducted numerous experiments, demonstrating that this method outperforms state-of-the-art grasping methods for densely stacked transparent objects. The task completion rate is higher by 9.7% (86.3% vs. 76.6%), the grasp success rate is higher by 8.7% (80.5% vs. 71.8%), and the action execution efficiency is higher by 25.9% (62.5% vs. 36.6%). 
 
-<p align="center">
+<palign="center">
     <img src="./images/overview.png" width=100% alt="overview">
     <i>System Overview</i>  
 </p>
@@ -57,10 +57,8 @@ We reference the following code in our project
 
 - [TransCG: A Large-Scale Real-World Dataset for Transparent Object Depth Completion and A Grasping Baseline][4]
 
-- [Self-Supervised Interactive Object Segmentation Through a Singulation-and-Grasping Approach] [5] 
 
 [1]: https://github.com/andyzeng/visual-pushing-grasping
 [2]: https://github.com/choicelab/grasping-invisible
 [3]: https://github.com/DrSleep/light-weight-refinenet
 [4]: https://github.com/Galaxies99/TransCG
-[5]: https://drive.google.com/drive/folders/1GAx8g5rP6A_YUwaJdPUm5jJUBNMp08Qs
