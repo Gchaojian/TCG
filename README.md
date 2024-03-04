@@ -1,13 +1,5 @@
 # TCG
-Transparent Object Grasping Method Based on Depth Completion in Dense Clutter
 
-This repository is for the paper
-
-**[TCG: Transparent Object Grasping Method Based on Depth Completion in Dense Clutter][1]**<br/>
-*Guo..*<br/>
-
-
-We propose a problem of dense stacking of transparent object, where transparent objects cause light to refract and reflect, making it exceptionally challenging for vision-based methods to generate effective grasp actions in the cluttered scenario. To address this issue, we propose a universal framework called TCG for collision-free grasp strategy gen-eration in environments with dense occlusion of transparent objects. In this framework, we utilize an end-to-end depth completion network to restore missing depth information for transparent objects, then employ reliable visual information for pixel-level action mapping. Specifically, we enhance the robot’s recognition capability in dense environments by incorporating the Spatial-Channel mixed Attention Mechanism into the visual feature extraction module. We created a dataset by simulating scenarios in biopharmaceutical manufacturing, including tubes, petri dishes and medicine bottles of various sizes and shapes. We conducted numerous experiments, demonstrating that this method outperforms state-of-the-art grasping methods for densely stacked transparent objects. The task completion rate is higher by 9.7% (86.3% vs. 76.6%), the grasp success rate is higher by 8.7% (80.5% vs. 71.8%), and the action execution efficiency is higher by 25.9% (62.5% vs. 36.6%). 
 
 <palign="center">
     <img src="./images/overview.png" width=100% alt="overview">
